@@ -1,0 +1,21 @@
+print ("1.Add\n2.Sub\n3.mul\n4.div")
+
+operation=input ("add,sub,mul,div(1/2/3/4):");
+if(operation=="1"):
+    a=int(input ("enter the value of a:"))
+    b=int(input("enter the value of b:"))
+    print (a+b)
+elif(operation=="2"):
+    a=int(input ("enter the value of a:"))
+    b=int(input("enter the value of b:"))
+    print(a-b)
+elif(operation=="3"):
+    a=int(input ("enter the value of a:"))
+    b=int(input("enter the value of b:"))
+    print(a*b)
+elif(operation=="4"):
+    a=int(input ("enter the value of a:"))
+    b=int(input("enter the value of b:"))
+    print (a/b)
+else:
+    print("invalid operation ")
